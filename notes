@@ -1,0 +1,8 @@
+CREATE DATABASE "santix5_development" WITH ENCODING 'UTF8';
+CREATE DATABASE "santix5_test" WITH ENCODING 'UTF8';
+CREATE DATABASE "santix5_production" WITH ENCODING 'UTF8';
+DROP USER "santo";
+CREATE USER "santo" WITH PASSWORD 'asdfasdf';
+GRANT ALL ON DATABASE "santix5_development" TO santo;
+GRANT ALL ON DATABASE "santix5_test" TO santo;
+GRANT ALL ON DATABASE "santix5_production" TO santo;

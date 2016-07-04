@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: santix5_production
-  username: santix5
-  password: <%= ENV['SANTIX5_DATABASE_PASSWORD'] %>
+  username: santo
+  password: asdf
